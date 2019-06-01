@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>height</key>
+			<string>150</string>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Full Battery Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>label</key>
+			<string>Enable/Disable</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<integer>100</integer>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>key</key>
+			<string>batPercent</string>
+			<key>label</key>
+			<string>Select Percent</string>
+			<key>placeholder</key>
+			<string>0 - 100</string>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>key</key>
+			<string>sound</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+			<key>label</key>
+			<string>Select sound</string>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>Super Mario</string>
+				<string>Super Mario 1</string>
+				<string>Super Mario 2</string>
+				<string>Super Mario 3</string>
+				<string>Super Mario 4</string>
+				<string>Super Mario 5</string>
+				<string>Super Mario 6</string>
+				<string>Super Mario 7</string>
+				<string>Super Mario 8</string>
+				<string>Super Mario 9</string>
+				<string>Super Mario 10</string>
+				<string>sos morse code</string>
+				<string>service bell</string>
+				<string>Samsung Low battery Sound Effect</string>
+				<string>Music Box</string>
+				<string>Electrical</string>
+				<string>Doorbell</string>
+				<string>bell</string>
+				<string>alert</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+				<string>10</string>
+				<string>11</string>
+				<string>12</string>
+				<string>13</string>
+				<string>14</string>
+				<string>15</string>
+				<string>16</string>
+				<string>17</string>
+				<string>18</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Play Preview Sounds</string>
+			<key>action</key>
+			<string>playSound</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Low Battery Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>label</key>
+			<string>Enable/Disable</string>
+			<key>key</key>
+			<string>lowenabled</string>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<integer>20</integer>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>key</key>
+			<string>lowbatPercent</string>
+			<key>label</key>
+			<string>Select Percent</string>
+			<key>placeholder</key>
+			<string>0 - 100</string>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>key</key>
+			<string>lowsound</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>PostNotification</key>
+			<string>com.yakir.alertspercent/ReloadPrefs</string>
+			<key>label</key>
+			<string>Select sound</string>
+			<key>defaults</key>
+			<string>com.yakir.alertspercent</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>Super Mario</string>
+				<string>Super Mario 1</string>
+				<string>Super Mario 2</string>
+				<string>Super Mario 3</string>
+				<string>Super Mario 4</string>
+				<string>Super Mario 5</string>
+				<string>Super Mario 6</string>
+				<string>Super Mario 7</string>
+				<string>Super Mario 8</string>
+				<string>Super Mario 9</string>
+				<string>Super Mario 10</string>
+				<string>sos morse code</string>
+				<string>service bell</string>
+				<string>Samsung Low battery Sound Effect</string>
+				<string>Music Box</string>
+				<string>Electrical</string>
+				<string>Doorbell</string>
+				<string>bell</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+				<string>10</string>
+				<string>11</string>
+				<string>12</string>
+				<string>13</string>
+				<string>14</string>
+				<string>15</string>
+				<string>16</string>
+				<string>17</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Play Preview Sounds</string>
+			<key>action</key>
+			<string>playlowSound</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact &amp; Support</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter!</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate Me via PayPal</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>action</key>
+			<string>openPaypal</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings should apply without the need of a respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>AlertsPercent By DevelopApple © 2019</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>AlertsPercent</string>
+</dict>
+</plist>

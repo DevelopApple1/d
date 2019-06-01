@@ -1,0 +1,161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8BF53EBA229FCEB000D2E0A0 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		8BF53EBB229FCEB000D2E0A0 /* ChargerAlerts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ChargerAlerts.xcodeproj; sourceTree = "<group>"; };
+		8BF53EBE229FCEB000D2E0A0 /* entry.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = entry.plist; sourceTree = "<group>"; };
+		8BF53EBF229FCEB000D2E0A0 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8BF53EC0229FCEB000D2E0A0 /* PFCRootListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCRootListController.h; sourceTree = "<group>"; };
+		8BF53EC1229FCEB000D2E0A0 /* PFCRootListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFCRootListController.m; sourceTree = "<group>"; };
+		8BF53EC2229FCEB000D2E0A0 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8BF53EB4229FCEB000D2E0A0 = {
+			isa = PBXGroup;
+			children = (
+				8BF53EBA229FCEB000D2E0A0 /* .DS_Store */,
+				8BF53EBB229FCEB000D2E0A0 /* ChargerAlerts.xcodeproj */,
+				8BF53EBE229FCEB000D2E0A0 /* entry.plist */,
+				8BF53EBF229FCEB000D2E0A0 /* Makefile */,
+				8BF53EC0229FCEB000D2E0A0 /* PFCRootListController.h */,
+				8BF53EC1229FCEB000D2E0A0 /* PFCRootListController.m */,
+				8BF53EC2229FCEB000D2E0A0 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF53EBC229FCEB000D2E0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8BF53EB9229FCEB000D2E0A0 /* AlertsPercent */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 8BF53EC5229FCEB000D2E0A0 /* Build configuration list for PBXLegacyTarget "AlertsPercent" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/developer/Downloads/Monarch-master/Monarch/monarchtweak/AlertsPercent";
+			dependencies = (
+			);
+			name = AlertsPercent;
+			passBuildSettingsInEnvironment = 1;
+			productName = AlertsPercent;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		8BF53EB5229FCEB000D2E0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 8BF53EB8229FCEB000D2E0A0 /* Build configuration list for PBXProject "AlertsPercent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BF53EB4229FCEB000D2E0A0;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BF53EBC229FCEB000D2E0A0 /* Products */;
+					ProjectRef = 8BF53EBB229FCEB000D2E0A0 /* ChargerAlerts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8BF53EB9229FCEB000D2E0A0 /* AlertsPercent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8BF53EB6229FCEB000D2E0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		8BF53EB7229FCEB000D2E0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		8BF53EC6229FCEB000D2E0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AlertsPercent;
+			};
+			name = Debug;
+		};
+		8BF53EC7229FCEB000D2E0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AlertsPercent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF53EB8229FCEB000D2E0A0 /* Build configuration list for PBXProject "AlertsPercent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF53EB6229FCEB000D2E0A0 /* Debug */,
+				8BF53EB7229FCEB000D2E0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF53EC5229FCEB000D2E0A0 /* Build configuration list for PBXLegacyTarget "AlertsPercent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF53EC6229FCEB000D2E0A0 /* Debug */,
+				8BF53EC7229FCEB000D2E0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF53EB5229FCEB000D2E0A0 /* Project object */;
+}

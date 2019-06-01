@@ -1,7 +1,7 @@
 Package: com.yakir.alertspercent
 Name: AlertsPercent
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm
 Description: AlertsPercent will help you not to forget your device is connected 
 Maintainer: DevelopApple
